@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,700&family=Lora:ital,wght@1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+img #main {
+    width: 200px;
+    height: 200px;
+}
+#first-section {
+    background-color: #1f2937;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+font-weight: 400;
+}
+a:hover {
+    color: pink;
+}
+h1 {
+    color: #f9faf8;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+}
+p {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+}
+#sign-in {
+    border: none;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 15px;
+    width: 80px;
+    height: 25px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+#sign-in:hover {
+    cursor: pointer;
+    background-color: #528DD7;
+    width: 90px;
+    height: 35px;
+    font-size: 18px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+#links {
+    display: flex;
+    justify-content: space-around;
+    gap: 18px;
+}
+#third-section {
+    background-color: #e5e7eb;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+h5 {
+    text-align: end;
+    margin-right: 10px;
+    margin-right: 100px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+}
+#para-quote {
+    color: #1f2937;
+    font-size: 36px;
+    /* font-style: italic; */
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    /* width: 300px; */
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#head-two {
+    color: #1f2937;
+    font-weight: 800;
+    font-size: 36px;
+}
+#head-three {
+    color: #f9faf8;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+#second-section {
+    background-color: #f9faf8;
+    padding-bottom: 150px;
+    padding-top: 30px;
+}
+#fourth-section {
+    background-color: #f9faf8;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#beginning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 30px;
+    padding-right: 5px;
+    padding-bottom: 90px;
+}
+#main {
+    width: 340px;
+    height: 340px;
+    margin-right: 5px;
+  }
+#logo {
+    width: 80px;
+    height: 80px;
+}  
+  
+#text {
+    font-size: 20px;
+    padding-left: 5px;
+    width: 500px;
+  }
+#head-two {
+    text-align: center;
+    padding-bottom: 40px;
+}  
+#flexbox {
+    display: flex;
+    gap: 15px; 
+    justify-content: center;
+    align-items: center;
+   padding-top: 30px;
+}
+#word {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+}
+.first {
+    margin-right: 1px;
+}
+#flexbox img {
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+}
+#center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    font-size: 18px;
+    height: 100px;
+    gap: 15;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 8px;
+}
+#sign-up {
+    margin-left: 40px;
+    border: none;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 15px;
+    width: 83px;
+    height: 25px;
+    border: 2px solid #e5e7eb;
+    border-radius: 4px;
+}
+#sign-up:hover {
+border: 2px dashed #edeff4;
+}
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#social-icons {
+    color: #528DD7;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.fa-brands.fa-instagram:hover {
+    color: aqua;
+ cursor: pointer;
+}
+.fa-brands.fa-discord:hover {
+    color: aqua;
+ cursor: pointer;
+}
+.fa-brands.fa-twitter:hover {
+    color: aqua;
+ cursor: pointer;
+}
+.fa-brands.fa-tiktok:hover {
+    color: aqua;
+ cursor: pointer;
+}
